@@ -1,0 +1,20 @@
+name:
+  LoginServer
+description:
+  登陆接口
+version:
+  v1.0
+method:
+  post
+basepath:
+  /tinyBooom/login
+contentType:
+  application/x-www-form-urlencoded
+#以下部分暂未做解析处理
+body:
+  - username
+  - passwd
+response:
+  expected_result:
+    code:200
+    msg:"ok"
